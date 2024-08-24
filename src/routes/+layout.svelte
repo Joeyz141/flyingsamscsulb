@@ -62,7 +62,13 @@ let menuOpen = writable(false); // This will control the menu state
 				>
 					Calendar
 				</a>
+				<a
+					class="btn btn-sm variant-ghost-surface"
+					href="/board"
 				
+				>
+					Board
+				</a>
 			</svelte:fragment>
 		</AppBar>
 
